@@ -1,10 +1,31 @@
-# BookCatalogFront
+# Book Catalog Frontend
+
+The frontend of the Book Catalog application is developed with Angular, utilizing Material UI and Tailwind CSS for a responsive and modern user interface. This document provides the prerequisites and instructions needed to start working on the frontend.
+
+## Prerequisites
+
+Ensure the following tools are installed on your development environment:
+
+- **Node.js**: Version 12.x or later. [Download here](https://nodejs.org/en/download/)
+- **Angular CLI**: Version 9.x or later. Install via npm with `npm install -g @angular/cli`.
+- **Visual Studio Code**: Recommended for Angular development. [Download here](https://code.visualstudio.com/)
+
+## Tools and Libraries
+
+- **Material UI**: For Angular material components. Install with `npm install @angular/material`.
+- **Tailwind CSS**: For utility-first styling. Install with `npm install tailwindcss`.
+
+## Development Setup
+
+1. **Clone the frontend repository**: Ensure you have the latest version of the frontend code.
+2. **Navigate to the project directory**: Use the terminal to access the project folder.
+3. **Install dependencies**: Run `npm install` to fetch all required npm packages.
+4. **Configure environment variables**: Set up the `.env` file with the backend API URL.
+5. **Run the Angular development server**: Execute `ng serve` and navigate to `http://localhost:4200/` to view the app.
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
